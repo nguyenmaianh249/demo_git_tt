@@ -4,7 +4,7 @@ var array = [1];
 var other = _.concat(array, 2, [1], [
     [4]
 ]);
-console.log(other);
+console.log(chalk.red(other));
 console.log(chalk.blue(array));
 var newresult = _.difference([2, 1], [2, 3]);
 console.log(newresult);
